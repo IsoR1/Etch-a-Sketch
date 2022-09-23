@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #37393A;
+}
+
+h1 {
+    margin: 10px 0;
+    color: #8FBFE0;
+}
+
+.selections {
+    display: flex;
+    align-items: space-between;
+    margin: 10px 15px;
+
+}
+
+.color-label {
+    color: #8FBFE0;
+    font-weight: 800;
+}
+
+.color-select {
+    margin: 0 10px;
+}
+
+.container {
+    display: grid;
+    background-color: #8FBFE0;
+    height: 50%;
+    width: 50%
+}
+
+.btn-size,
+.btn-erase {
+    padding: 0 15px;
+}
+
+.btn-size {
+    margin: 0 0 0 5px;
+}
+
+.grid-div {
+
+}
+
